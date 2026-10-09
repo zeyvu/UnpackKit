@@ -4,8 +4,8 @@ tools/*
 !tools/README.md
 
 # Your own images and music: add them locally, see images/README.md.
-images/*
-!images/README.md
+#images/*
+#!images/README.md
 
 # Input / output folders
 /Game/
