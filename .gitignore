@@ -1,0 +1,23 @@
+# Third-party tools (FreeArc / lolz builds): not redistributable.
+# Install them locally, see tools/README.md
+tools/*
+!tools/README.md
+
+# Your own images and music: add them locally, see images/README.md.
+images/*
+!images/README.md
+
+# Input / output folders
+/Game/
+/Output/
+/Extracted/
+
+# Archives and binaries
+*.arc
+*.exe
+
+# OS / editor files
+Thumbs.db
+Desktop.ini
+.DS_Store
+.vscode/

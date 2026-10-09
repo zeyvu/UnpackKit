@@ -1,2 +1,4 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+# Windows batch files and Inno Setup scripts must keep CRLF line endings
+*.bat text eol=crlf
+*.iss text eol=crlf
+*.md  text eol=lf
